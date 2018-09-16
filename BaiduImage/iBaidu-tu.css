@@ -1,0 +1,101 @@
+@-moz-document url-prefix("http://tu.baiud.com"), url-prefix("https://tu.baidu.com"), url-prefix("http://image.baidu.com"), url-prefix("https://image.baidu.com"), domain("tu.baidu.com"), domain("http://tu.baidu.com"), domain("image.baidu.com") {
+/* 整体修改 */
+body,
+#wrapper,
+#main,
+#container,
+#sider {
+	background: #000 !important;
+}
+#main {
+	width: 100% !important;
+}
+
+/* 底部图片列表 */
+.album-container {
+	background: none !Important;
+}
+.album-container .imgitem {
+	border: 1px solid #444444 !important;
+	opacity: .5 !important;
+}
+.album-container img {
+	width: 100% !important;
+}
+.album-container .focus {
+	border: 2px solid #4285f4 !important;
+	opacity: 1 !Important;
+}
+/* 底部图片左右两侧按钮 */
+.album-container .slider-btn {
+	background: #333 !important;
+}
+.album-container .slider-btn li {
+	opacity: .8 !important;
+}
+
+
+/* 顶部设置 */
+#header {
+	background: none !important;
+	border: none !important;	
+}
+/* 搜索框 */
+#sugIn {
+	background: #333333 !important;
+	border: 1px solid #333333 !important;
+}
+#sugIn input {
+	color: #4285f4 !important;
+	border: none;
+	font-weight: 100 !important;
+}
+/* 搜索按钮 */
+#sugOut .sb {
+	background: #4285f4 !important;
+}
+#sugOut .sb:hover {
+	box-shadow: none !important;
+	background: #4285f4c9 !important;
+}
+/* 右侧信息 */
+#userInfo > * {
+	color: #cccccc !important;
+}
+
+/* 搜索展示列表 */
+.sug-wrap {
+	border: none !important;
+	background: #333333 !important;
+}
+.sug-wrap .sug-item {
+	color: #45525e !important;
+	font-weight: 100 !important;
+	line-height: 24px !Important;
+}
+.sug-wrap .sug-hover {
+	background: rgba(0,0,0,.5) !important;
+}
+
+
+/* 底部工具菜单 */
+.album-pnl .toolbar {
+	color: #ffffff !important;
+	border: 0 !important;
+	opacity: .8 !Important;
+}
+
+
+/* 隐藏侧边栏 */
+#sider {
+	display: none;
+	opacity: 0;
+}
+
+
+/* 清除广告 */
+.text-link-ads {
+	display: none;
+	opacity: 0;
+}
+}
